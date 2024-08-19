@@ -10,8 +10,8 @@ define('BASE','http://qualityltda.com.br/');
 define('IMAGEW','700px');
 
 //CONECTA NO BANCO
-//$conn = mysql_connect(HOST, USER, PASS) or die ('Erro ao conectar: '.mysql_error());
-//$dbsa = mysql_select_db(DBSA) or die ('Erro ao selecionar banco: '.mysql_error());
+$conn = mysql_connect(HOST, USER, PASS) or die ('Erro ao conectar: '.mysql_error());
+$dbsa = mysql_select_db(DBSA) or die ('Erro ao selecionar banco: '.mysql_error());
 
 
 //INCLUI FUNÇÕES DO PRO PHP
@@ -33,24 +33,24 @@ function myAut(){
 }
 
 //MEUS DADOS
-//$config_readGeral = read('config_geral');
-//if($config_readGeral){
-//	foreach($config_readGeral as $geral);
-//	define('SITENAME',$geral['titulo']);
-//	define('SITEDESC',$geral['descricao']);
-//	define('ENDERECO',$geral['endereco']);
-//	define('TELEFONE',$geral['telefone']);
-//}else{
-//	define('SITENAME','null');
-//	define('SITEDESC','null');
-//	define('ENDERECO','null');
-//	define('TELEFONE','null');	
-//}
+$config_readGeral = read('config_geral');
+if($config_readGeral){
+	foreach($config_readGeral as $geral);
+	define('SITENAME',$geral['titulo']);
+	define('SITEDESC',$geral['descricao']);
+	define('ENDERECO',$geral['endereco']);
+	define('TELEFONE',$geral['telefone']);
+}else{
+	define('SITENAME','null');
+	define('SITEDESC','null');
+	define('ENDERECO','null');
+	define('TELEFONE','null');	
+}
 
 
 
 //DEFINE O SERVIDOR DE E-MAIL
-//$config_readMailServer = read('config_geral');
+$config_readMailServer = read('config_geral');
 if($config_readMailServer){
 	foreach($config_readMailServer as $config_mailserver);
 	define('MAILUSER',$config_mailserver['usuario']);
