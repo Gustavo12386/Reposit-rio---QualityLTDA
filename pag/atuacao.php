@@ -21,7 +21,7 @@ if ($lerAtuacao) {
 </div>
 <div class="box box5 limite atuacao">
     <h1 class="titulo titulo-branco">Atuação</h1>
-    <div class="texto text-azul-normal box-single"> 
+    <div class="texto text-azul-normal box-single3"> 
         <div id="atuacao-texto" class="float-left">
             
             <?php echo $atuacao['atuacao']; ?>
