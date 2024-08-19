@@ -1,0 +1,81 @@
+/* CSS MOBILE */
+body{ overflow: auto;}
+.limite{width:100%;}
+
+#geral{ position: relative; width: 100%; height: 100%; top: 0; margin-top: 0; padding: 0px 25px; box-sizing: border-box;}
+
+.col-esq{ display: none;  width: 100%;}
+.col-dir{ width: 100%;}
+
+.novidades, .qualidade{ width: 100%;}
+.novidades{ height: 196px;}
+.novidades .texto{ height: 118px;}
+
+.qualidade p{ width: 100%;}
+.qualidade img{ float:none;}
+.qualidade .texto{ text-align: center;height: 265px; }
+
+
+.atuacao .texto{ padding: 25px}
+.atuacao #atuacao-texto{ padding: 0px 0px 0px 0px; width: auto;}
+.atuacao ul.fotos{overflow: hidden; height: auto; width: 100%;display: table; margin-top: 20px;}
+.atuacao ul.fotos li{height: auto; display: inline-block;width: 33%;}
+.atuacao ul.fotos li img{width: 100%;}
+.atuacao .imgilustra{ margin-top: 20px;}
+
+.contato .box_form{ width: 100%; margin-bottom: 20px;}
+.contato .box_mapa{ width: 100%}
+
+.box{margin-top:0;}
+
+.box-single{ height: auto;}
+
+/*CLIENTES */
+.clientes .menu_int_mobile{display: block;}
+.clientes{}
+.clientes .menu_int_mobile{ margin: 0 auto; padding: 15px; width: 100%; box-sizing: border-box}
+.clientes .menu_int_mobile h3{font-weight: 300; padding: 10px; box-sizing: border-box; color: #ccc; cursor: pointer; outline: none;}
+.clientes .menu_int_mobile h3.item_um{ background:#425f8c;}
+.clientes .menu_int_mobile h3.item_dois{ background:#3e5983;}
+.clientes .menu_int_mobile h3.item_tres{ background:#395279;}
+.clientes .menu_int_mobile h3.item_quatro{ background:#344b6f;}
+.clientes .menu_int_mobile h3.item_cinco{ background:#304565;}
+.clientes .menu_int_mobile h3.item_seis{ background:#2b3e5b;}
+.clientes .menu_int_mobile .cont_mobile{ padding: 10px;}
+.clientes .menu_int_mobile .cont_mobile p{ font-weight: 300; color: #000;}
+
+.clientes .menu_int_default, .clientes .container_clientes{ display: none !important;}
+
+/*EMPRESA */
+.empresa .menu_int_mobile{display: block;}
+.empresa{}
+.empresa .menu_int_mobile{ margin: 0 auto; padding: 15px; width: 100%; box-sizing: border-box}
+.empresa .menu_int_mobile h3{font-weight: 300; padding: 10px; box-sizing: border-box; color: #ccc; cursor: pointer; outline: none;}
+.empresa .menu_int_mobile h3.item_um{ background:#425f8c;}
+.empresa .menu_int_mobile h3.item_dois{ background:#3e5983;}
+.empresa .menu_int_mobile h3.item_tres{ background:#395279;}
+.empresa .menu_int_mobile h3.item_quatro{ background:#344b6f;}
+.empresa .menu_int_mobile h3.item_cinco{ background:#304565;}
+.empresa .menu_int_mobile h3.item_seis{ background:#2b3e5b;}
+.empresa .menu_int_mobile .cont_mobile{ padding: 10px;}
+.empresa .menu_int_mobile .cont_mobile p{ font-weight: 300; color: #000;}
+
+.empresa .menu_int_mobile .cont_mobile ul{}
+.empresa .menu_int_mobile .cont_mobile ul li{margin-bottom: 10px;font-family: 'Roboto',sans-serif;font-weight: 300;color: #404040;}
+.empresa .menu_int_mobile .cont_mobile ul li ul{margin: 15px 0px 15px 20px;}
+.empresa .menu_int_mobile .cont_mobile ul li ul li{list-style-position: inside;
+list-style-type: disc !important;}
+
+.empresa .menu_int_default, .empresa .container_empresa{ display: none !important;}
+
+/* QUALIDADE */
+img.certificado-qualidade{ float: none; height: auto; width: 100%; margin-top: 20px;}
+#qualiade-texto{ width: 100%;}
+
+/* MENU MOBILE */
+.barmobile{ display: block;}
+
+.btn_change{ display: none !important;}
+
+
+

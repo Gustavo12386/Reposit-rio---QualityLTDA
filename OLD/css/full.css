@@ -1,0 +1,76 @@
+/* CSS FULL */
+body{ overflow: hidden;}
+.limite{width:795px;}
+
+#geral{ position: absolute; width: 100%; height: 600px; top: 50%; margin-top: -300px; padding: 0px 25px; box-sizing: border-box;}
+
+.col-esq{ display: block;}
+.col-dir{width: 747px;}
+
+.novidades{ width: 260px;}
+.novidades .texto{ height: 206px;}
+.novidades{height: 283px;}
+
+.qualidade{ width: 500px;}
+.qualidade p{ width: 266px;}
+.qualidade img{ float:right;}
+.qualidade .texto{ text-align: justify; height: 206px; }
+
+
+.atuacao .texto{ padding-bottom: 0; padding-right:0; padding-top: 0;}
+.atuacao #atuacao-texto{ padding: 25px 25px 25px 0px; max-width: 486px;}
+.atuacao ul.fotos{overflow: hidden; height: 100%;margin-top: 0px;}
+.atuacao ul.fotos li{height: 33%;display: block;}
+.atuacao ul.fotos li img{}
+.atuacao .imgilustra{ margin-top: 0px;}
+
+
+.contato .box_form{ width: 325px; margin-bottom: 0px;}
+.contato .box_mapa{ width: 395px;}
+
+.box{margin-top: 33px;}
+
+.box-single{ height: 490px;}
+
+/*CLIENTES */
+.clientes ul.menu_int_default, .clientes .container_clientes{ display: block;}
+.clientes{}
+.clientes ul.menu_int_default{ margin: 0 auto; padding: 0; width: 215px; height: 490px; overflow: hidden;}
+.clientes ul.menu_int_default li{background:#425f8c; float: left; height: 82px; width: 100%; position: relative; cursor: pointer;}
+.clientes ul.menu_int_default li + li{ background:#3e5983;}
+.clientes ul.menu_int_default li + li + li{ background:#395279;}
+.clientes ul.menu_int_default li + li + li + li{ background:#344b6f;}
+.clientes ul.menu_int_default li + li + li + li + li{ background:#304565;}
+.clientes ul.menu_int_default li + li + li + li + li + li{ background:#2b3e5b;}
+.clientes ul.menu_int_default li a{ position: absolute; left: 15px; top: 46px; color: #949494;}
+.clientes ul.menu_int_default li a:hover{}
+.clientes ul.menu_int_default li a.ativo{ color: #ccc; text-align: right;}
+.clientes ul.menu_int_default li a.ativo +span{right: 15px;}
+.clientes ul.menu_int_default li span{ position: absolute; right: -15px; top: 50px; width: 8px; height: 14px; background-image: url("../img/arrow_menu.png"); background-position: center; background-repeat: no-repeat;}
+
+.clientes .menu_int_mobile{display: none;}
+
+/*EMPRESA */
+.empresa ul.menu_int_default, .clientes .container_empresa{ display: block;}
+.empresa{}
+.empresa ul.menu_int_default{ margin: 0 auto; padding: 0; width: 215px; height: 490px; overflow: hidden;}
+.empresa ul.menu_int_default li{background:#425f8c; float: left; height: 123px; width: 100%; position: relative; cursor: pointer;}
+.empresa ul.menu_int_default li + li{ background:#3e5983;}
+.empresa ul.menu_int_default li + li + li{ background:#395279;}
+.empresa ul.menu_int_default li + li + li + li{ background:#344b6f;}
+.empresa ul.menu_int_default li + li + li + li + li{ background:#304565;}
+.empresa ul.menu_int_default li + li + li + li + li + li{ background:#2b3e5b;}
+.empresa ul.menu_int_default li a{ position: absolute; left: 15px; top: 85px; color: #949494;}
+.empresa ul.menu_int_default li a:hover{}
+.empresa ul.menu_int_default li a.ativo{ color: #ccc; text-align: right;}
+.empresa ul.menu_int_default li a.ativo +span{right: 15px;}
+.empresa ul.menu_int_default li span{ position: absolute; right: -15px; top: 89px; width: 8px; height: 14px; background-image: url("../img/arrow_menu.png"); background-position: center; background-repeat: no-repeat;}
+
+.empresa .menu_int_mobile{display: none;}
+
+/* QUALIDADE */
+img.certificado-qualidade{ float:right; height: 100%; width: auto; margin-top: 0px;}
+#qualiade-texto{ width: 388px;}
+
+/* MENU MOBILE */
+.barmobile{ display: none;}

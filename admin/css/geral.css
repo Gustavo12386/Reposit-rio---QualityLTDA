@@ -1,0 +1,199 @@
+*{ margin:0 auto;}
+
+body{ 
+	background:#ededed;
+	font-family:Tahoma !important;
+	outline:none;
+}
+a{ text-decoration:none; outline:none;}
+.clear{ clear:both;}
+
+/* TOPO */
+#topo{
+	background:#d9d8d8;
+	width:100%;
+	height:84px;
+	/*border-bottom:19px solid #8f1419; PESONALIZAR */
+	margin-bottom:10px;
+}
+#topo .topo_meio{
+	width:980px;
+	margin:0 auto;
+}
+#topo .topo_meio .logo{
+	height:75px;
+	width:auto;
+	margin-top:4px;
+	margin-left:5px;
+	float:left;
+}
+#topo #tempo{
+	float:right;
+	margin:5px 5px;
+	font-size:11px;
+	font-family:Tahoma;
+	color:#333;
+}
+
+/* CONTENT */
+#content{
+	width:980px;
+	margin:0 auto;
+}
+
+/* SIDEBAR */
+.sidebar{
+	width:265px;
+	float:left;
+	
+}
+
+.sidebar .admin{
+	width:255px;
+	height:74px;
+	padding-bottom:10px;
+	margin-bottom:0px;
+	margin-left:0;
+	background:url(../img/linha.gif) repeat-x bottom left;
+}
+
+.sidebar .admin span{
+	width:60px;
+	height:60px;
+	background:#fff;
+	padding:5px;
+	border:1px solid #d7d7d7;
+	float:left;
+	margin-right:10px;
+}
+.sidebar .admin p{
+	font-size:13px;
+	color:#d7d7d7;
+	margin-bottom: 10px;
+}
+.sidebar .admin p strong{
+	font-size:15px;
+	color:#666;
+}
+.sidebar .admin ul.box_config{
+	list-style:none;
+	float: left;
+	margin: 0 auto;
+	padding: 0;	
+}
+.sidebar .admin ul.box_config li{
+	display:inline;
+}
+/* MENU */
+.menu{
+	width:255px;
+	float: left;
+	overflow:hidden;
+}
+.menu ul{
+	margin:0 auto;
+	padding:0;
+}
+
+.menu ul li{
+	list-style:none;
+	background:url(../img/linha.gif) repeat-x bottom left;
+	width:255px;
+	float:left;
+	clear:both;
+	
+}
+.menu ul li a{
+	font-size:16px;
+	color:#666;
+	padding:10px 7px 10px 5px;
+	float:left;
+	width:242px;
+	-webkit-transition: background 0.2s linear;
+	-moz-transition: background 0.2s linear;
+	-ms-transition: background 0.2s linear;
+	-o-transition: background 0.2s linear;
+	transition: background 0.2s linear;
+}
+
+.menu ul li a:hover,.menu ul li a.ativo{
+	/*background:#8f1419; PESONALIZAR */
+	color:#FFF;
+}
+.menu ul li.aberto{ background:#cfcfcf;}
+
+
+/*---- SUBMENU -------*/
+.menu ul li.parent ul{
+	background:#d9d8d8;
+	float:left;
+	width:254px;
+	display:none;
+	overflow:hidden;
+}
+.menu ul li.parent ul li{
+	list-style:none;
+	background:none;
+	display:block;
+	clear:both;	
+}
+.menu ul li.parent ul li a{
+	font-size:14px;
+	padding:10px 7px 10px 15px;
+}
+.menu ul li.parent ul li a:hover{
+	background:#999;
+}
+
+/* PAGINA */
+.pagina{
+	width:695px;
+	float:right;
+	padding:10px;
+	background:#FFF;
+	-webkit-box-shadow: -2px 0 2px 0 rgba(0,0,0,0.4);
+	box-shadow: -2px 0 2px 0 rgba(0,0,0,0.4);
+}
+
+/* RODAPE */
+#rodape{
+	width:100%;
+	height:50px;
+	padding:10px 0px;
+	/*background:#8f1419; PESONALIZAR */
+	margin-top:10px;
+	text-align:center;
+	color:#FFF;
+	font-size:12px;
+}
+#rodape p{
+	color:#fff;
+}
+
+/* TOOLTIP */
+.tooltip_objeto{
+	position:absolute; 
+	z-index:1000; 
+	text-align:center;
+	background:rgba(0,0,0,0.8);
+	color:#FFF;
+	font-size:12px;
+	font-family:Tahoma;	
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+.tooltip_objeto .meio{
+	position:relative;
+	padding: 5px 10px;
+}
+.tooltip_objeto .meio .seta_tooltip{
+	position:absolute;
+	left:50%;
+	margin-left:-5px;
+	bottom:-5px;
+	background:url(../img/seta_tooltip.png) no-repeat top center;
+	width:10px;
+	height:5px;
+}
+

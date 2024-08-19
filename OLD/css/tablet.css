@@ -1,0 +1,37 @@
+/* CSS MOBILE */
+body{ overflow: auto;}
+.limite{width:100%;}
+
+#geral{ position: relative; width: 100%; height: 100%; top: 0; margin-top: 0; padding: 0px 25px; box-sizing: border-box;}
+
+.col-esq{ display: none;}
+col-dir{  width: 747px;}
+
+.novidades, .qualidade{ width: 100%;}
+.novidades{ height: 196px;}
+.novidades .texto{ height: 118px;}
+
+.qualidade p{ width: 100%;}
+.qualidade img{ float:none;}
+.qualidade .texto{ text-align: center;height: 265px; }
+
+.atuacao .texto{ padding: 25px}
+.atuacao #atuacao-texto{ padding: 0px 0px 0px 0px; max-width: auto;}
+.atuacao ul.fotos{overflow: hidden; height: auto; width: 100%;display: table; margin-top: 20px;}
+.atuacao ul.fotos li{height: auto; display: inline-block;width: 33%;}
+.atuacao ul.fotos li img{width: 100%;}
+.atuacao .imgilustra{ margin-top: 20px;}
+
+.contato .box_form{ width: 100%; margin-bottom: 20px;}
+.contato .box_mapa{ width: 100%}
+
+.box{margin-top:0;}
+
+.box-single{ height: auto;}
+
+/* QUALIDADE */
+img.certificado-qualidade{ float: none; height: auto; width: 100%; margin-top: 20px;}
+#qualiade-texto{ width: 100%;}
+
+/* MENU MOBILE */
+.barmobile{ display: block;}

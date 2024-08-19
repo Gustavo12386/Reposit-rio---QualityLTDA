@@ -1,0 +1,176 @@
+/* BOTÕES */
+.btn{
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.btn_small{
+	padding: 2px 7px;
+}
+.btn-primary {
+color: #fff;
+background-color: #428bca;
+border-color: #357ebd;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+color: #fff;
+background-color: #3276b1;
+border-color: #285e8e;
+}
+.btn-default {
+color: #333;
+background-color: #fff;
+border-color: #ccc;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+color: #333;
+background-color: #ebebeb;
+border-color: #adadad;
+}
+.btn-success {
+color: #fff;
+background-color: #5cb85c;
+border-color: #4cae4c;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+color: #fff;
+background-color: #47a447;
+border-color: #398439;
+}
+.btn-info {
+color: #fff;
+background-color: #5bc0de;
+border-color: #46b8da;
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
+color: #fff;
+background-color: #39b3d7;
+border-color: #269abc;
+}
+.btn-warning {
+color: #fff;
+background-color: #f0ad4e;
+border-color: #eea236;
+}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning {
+color: #fff;
+background-color: #ed9c28;
+border-color: #d58512;
+}
+.btn-danger {
+color: #fff;
+background-color: #d9534f;
+border-color: #d43f3a;
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+color: #fff;
+background-color: #d2322d;
+border-color: #ac2925;
+}
+.btn-link {
+font-weight: normal;
+color: #428bca;
+cursor: pointer;
+border-radius: 0;
+}
+.btn-link:hover, .btn-link:focus {
+color: #2a6496;
+text-decoration: underline;
+background-color: transparent;
+}
+
+.ico_white {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-top: 1px;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-image:url(../img/glyphicons-halflings-white.png);
+	background-position: 14px 14px;
+	background-repeat: no-repeat;
+}
+
+.ico_black {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-top: 3px;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-image:url(../img/glyphicons-halflings.png);
+	background-position: 14px 14px;
+	background-repeat: no-repeat;
+}
+.mark_menu{
+	float:right;
+	margin-right:5px;
+}
+
+.ico_sair {
+	background-position: -384px 0;
+}
+.ico_config {
+	background-position: -360px -144px;
+}
+.ico_user {
+	background-position: -168px 0;
+}
+.ico_seta_down {
+  background-position: -313px -119px;
+}
+.ico_seta_up {
+  background-position: -288px -120px;
+}
+
+.ico_seta_left {
+  background-position: -432px -72px;
+}
+
+.ico_seta_right {
+  background-position: -456px -72px;
+}
+
+.ico_folder_open {
+  width: 16px;
+  background-position: -408px -120px;
+}
+.ico_lightbox {
+  background-position: -456px -144px;
+}
+.ico_del {
+  background-position: -312px 0;
+}
+.ico_edit {
+  background-position: 0 -72px;
+}
+.ico_color {
+	 background-position: -72px -72px;
+}
+.ico_view {
+	 background-position: -96px -120px;
+}
+.ico_noview {
+	 background-position: -120px -120px;
+         opacity: 0.5;
+}
+
+
+
+
+
