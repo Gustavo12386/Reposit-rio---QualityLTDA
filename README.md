@@ -11,3 +11,6 @@
 ![Captura de tela em 2024-08-19 18-02-52](https://github.com/user-attachments/assets/9d2d688f-4587-4889-a6a0-569958c0c0bd)
 ![Captura de tela em 2024-08-19 18-03-42](https://github.com/user-attachments/assets/d23b61e9-d4e6-4394-a8bc-34efbc5d8254)
 ![Captura de tela em 2024-08-19 18-04-15](https://github.com/user-attachments/assets/35c3a87c-2463-49f0-84ab-e4e207ab0356)
+
+## Autor
+- Gustavo Calderaro
